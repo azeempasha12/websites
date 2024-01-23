@@ -1,0 +1,479 @@
+
+.h1{
+  
+        font-family: 'Georgia', serif;
+        font-size: 3em;
+        font-weight: bold;
+        color: #e74c3c; /* Text color */
+        text-align: center;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin-bottom: 18px;
+      
+        /* Initial Text Shadow */
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        
+        /* Hover Effect */
+        transition: text-shadow 0.3s ease-in-out;
+      }
+      
+      h1:hover {
+        /* Enhanced Text Shadow on Hover */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+      }
+
+
+
+    .heading-2{
+      
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #2ecc71;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        letter-spacing: 2px;
+        text-align: center;
+        transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+        cursor: pointer;
+        font-size: 50px;
+        font-weight: bolder;
+        padding-bottom: 19px;
+        
+      }
+  
+      .heading-2:hover {
+        transform: scale(1.1);
+        color: #e74c3c;
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+    }
+    
+
+
+.H-6 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    color: #27ae60; /* Choose your preferred text color */
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+  }
+  
+  .H-6::before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 0.1em;
+    background: linear-gradient(to right, #e74c3c, #3498db); /* Gradient underline with your preferred colors */
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: bottom center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .H-6:hover::before {
+    transform: translateX(-50%) scaleX(1);
+  }
+  
+    
+
+  .P-6 {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.1;
+    padding-top: 0px auto;
+   padding-bottom: 1px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.box{
+    display: flex;
+    width: 100%;
+    height: 5px;
+    background-color: rgb(94, 148, 139);
+  
+}
+.box2{
+   
+    width: 30vh;
+    height: 30vh;
+    background-color: rgb(94, 148, 139);
+    
+}
+.box3{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+     
+}
+
+.container1{
+    padding-left: 10px;
+     height: 150px;
+     width: 150px ;
+     background-attachment: fixed;
+     background-color: cornflowerblue;
+}
+
+.container2{
+    display: flex;
+    width: 100%;
+    height: 0cap;
+   
+    background-color: rgb(211, 191, 224);
+    padding-top: 30px;
+    
+    
+
+}
+
+
+.myid{
+        max-width: 400px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+}
+
+
+.gg{
+
+    width: 90;
+    aspect-ratio: 3/2;
+}
+
+
+
+
+
+  .con {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+   
+  
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  
+  .box4 {
+    position: relative;
+    width: 24%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #060c21;
+    margin: 5px;
+    transition: .5s;
+    overflow: hidden;
+    
+  
+  }
+  
+  .box4:hover {
+    transform: scale(1.05);
+  }
+  
+  .box4:hover .imgBx img {
+    filter: blur(0);
+    
+  }
+  
+  .box4 .imgBx {
+    position: absolute;
+    top: 0;
+    left: 0;
+   height: 80%;
+   width: 100%;
+    z-index: 10;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+    
+  }
+  
+  .box4 .imgBx img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(3px);
+    transition: filter 0.4s;
+ 
+  }
+  
+  .box4 .content {
+    text-align: center;
+    color: #fff;
+  }
+
+
+
+
+  .box4-h{
+        font-size: 50px; /* Adjust the font size */
+        font-weight: bold; /* Make the font bold */
+        text-transform: uppercase; /* Convert text to uppercase */
+        letter-spacing: 1px; /* Add letter spacing */
+        margin-bottom: 8px; /* Add spacing below the heading */
+        color: #ffcc00; /* Set the text color */
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8); /* Add a subtle text shadow */
+      text-align: center;
+      background-color: rgb(222, 233, 225);
+      width: 100%;
+    
+    
+    }
+      
+      .box4 .content span {
+        font-size: 15px; /* Adjust the font size for the span */
+        display: block; /* Make the span a block element for additional styling */
+        color: #999; /* Set the span text color */
+       
+      
+      }
+
+
+
+
+
+      .h-3{
+        /* Style the heading */
+
+    font-family: 'Roboto', sans-serif; /* Use a custom font */
+    font-size: 2.5em; /* Set the font size */
+    font-weight: bolder; /* Make it bold */
+    color: #2c3e50; /* Set the text color */
+    text-align: center; /* Center the text */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 2px; /* Add letter spacing */
+    margin-bottom: 20px; /* Add spacing below the heading */
+    font-style: italic;
+    text-shadow: 2px 2px 3px rgb(223, 7, 7);
+   
+  }
+  
+  /* Add a gradient effect to the heading */
+  .h-3::before {
+    content: ''; /* Create a pseudo-element */
+    display: block;
+    height: 10px; /* Adjust the height of the gradient bar */
+    width: 100%;
+    background: linear-gradient(to right, #3498db, #e74c3c); /* Set the gradient colors */
+    position: relative;
+    top: -10px; /* Position the gradient above the text */
+    z-index: -1; /* Move it behind the text */
+  }
+  
+  /* Add a shadow effect to the heading */
+  .h-3:after {
+    content: ''; /* Create another pseudo-element */
+    display: block;
+    height: 2px; /* Adjust the height of the shadow */
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Set the shadow color */
+    position: relative;
+    top: 5px; /* Position the shadow below the text */
+    z-index: -1; /* Move it behind the text */
+  }
+
+
+  
+.logo{
+  height: 15.5rem;
+  margin:0px auto ;
+  width: 15rem;
+
+}
+
+
+.col-sm-4:hover{
+  transform: scale(1.03);
+ 
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  
+  
+  
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease; /* Adjust the duration and timing function as needed */
+ 
+
+  }
+
+
+
+.row{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0px auto;
+}
+
+
+
+
+
+ .lastpage{
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #3498db, #2ecc71);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 100%;
+  overflow: hidden;
+  font-weight: bolder;
+}
+
+.animated-text10 {
+  font-size: 36px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.animated-text10 span {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeInUp 0.8s forwards;
+  animation-delay: 0.1s;
+}
+
+.animated-text10 span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.animated-text10 span:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.animated-text10 span:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.animated-text10 span:nth-child(5) {
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.gradient-border {
+  background: linear-gradient(90deg, #e74c3c, #f39c12);
+  padding: 8px;
+  border-radius: 10px;
+  display: inline-block;
+} 
+
+
+
+
+
+.form-container15 {
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  width: 350px;
+  padding: 40px;
+  text-align: center;
+  color: #fff;
+
+}
+
+.form2 label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.form2 input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.form2 input:focus {
+  outline: none;
+  background-color: #444;
+}
+
+.form2 button {
+  background-color: #ff5733;
+  color: #fff;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.form2 button:hover {
+  background-color: #e64a2e;
+}
+
+
+
+
+
+.effective-background {
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60%;
+  background: linear-gradient(-45deg, #3498db, #e74c3c, #2ecc71, #f39c12);
+  background-size: 400% 400%;
+  animation: gradientAnimation 10s infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
